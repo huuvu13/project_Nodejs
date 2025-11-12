@@ -34,9 +34,9 @@
         <div class="flex flex-col sm:justify-center sm:ml-10 ">
           <div class="grid grid-cols-2">
             <div class="text-black text-[1rem] font-medium">
-              <p>Price:</p>
-              <p>Quantity:</p>
-              <p>Total:</p>
+              <p>Giá:</p>
+              <p>Số lượng:</p>
+              <p>Tổng tiền:</p>
             </div>
             <div class="text-black font-[1rem] font-medium">
               <p>${{ record.product.price }}</p>
@@ -74,15 +74,15 @@
           <div class="flex flex-col discount_code border border-[#e8e8e8]">
             <div class=" bg-orange flex items-center pl-3 py-2">
               <h2 class="text-[1rem] font-medium text-white">
-                COUPON
+                Mã giảm giá
               </h2>
             </div>
             <p class=" px-3 text-[1rem] font-medium mt-5">
-              Enter your coupon code if you have one.
+              Mời nhập mã giảm giá
             </p>
             <a-input-search
-              placeholder="Enter your coupon code"
-              enter-button="Apply"
+              placeholder="Mời nhập mã giảm giá"
+              enter-button="Xác nhận"
               class="w-3/6 mt-5 px-3"
               size="large"
             />
@@ -90,24 +90,24 @@
           <div class="flex flex-col border border-[#e8e8e8]">
             <div class=" bg-orange flex items-center pl-3 py-2">
               <h2 class="text-[1rem] font-medium text-white">
-                CART TOTAL
+                Tổng tiền
               </h2>
             </div>
             <div class="flex justify-between px-3 mt-5 mb-5">
               <div class="text-[1rem] font-medium text-black space-y-1">
                 <p>
-                  Amount:
+                  Số lượng:
                 </p>
                 <p>
-                  Total money:
+                  Tổng tiền:
                 </p>
                 <p>
-                  Transport fee:
+                  Phí vận chuyển:
                 </p>
                 <p>
-                  Discount:
+                  Giảm giá:
                 </p>
-                <p>Into money: </p>
+                <p>Tổng tiền: </p>
               </div>
               <div class="text-black font-medium flex flex-col items-end space-y-1">
                 <p> {{ item }} Item  / {{ numberProduct }} Product</p>
@@ -132,11 +132,11 @@
         <div class="flex sm:justify-between w-1/2 mx-auto my-10 flex-col sm:flex-row">
           <button ref="checkOutCarts" class="bg-green text-white py-2 px-2 text-[1rem] font-medium rounded-sm" disabled @click="showBilling">
             <i class="fa-solid fa-cart-shopping" />
-            Process to checkout ({{ numberProduct }})
+            Quy trình thanh toán ({{ numberProduct }})
           </button>
           <button ref="deleteCarts" disabled class="bg-red text-white py-2 px-2 text-[1rem] font-medium rounded-sm" @click="deleteCarts">
             <i class="fa-solid fa-trash" />
-            Delete products ({{ numberProduct }})
+            Xóa sản phẩm ({{ numberProduct }})
           </button>
         </div>
       </template>
@@ -149,7 +149,7 @@
 import BillingInfo from '@/components/modal/BillingInfo.vue'
 const columns = [
   {
-    title: 'PRODUCT',
+    title: 'SẢN PHẨM',
     key: 'product',
     dataIndex: 'product',
     scopedSlots: { customRender: 'product' }

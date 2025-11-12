@@ -9,7 +9,7 @@
     <div>
       <div class="flex sm:space-x-6 sm:flex-row flex-col">
         <div class="w-full">
-          <a-form-model-item ref="fullName" label="Full name" prop="fullName">
+          <a-form-model-item ref="fullName" label="Họ Tên" prop="fullName">
             <a-input
               v-model="form.fullName"
               @blur="
@@ -21,7 +21,7 @@
           </a-form-model-item>
         </div>
         <div class="w-full ">
-          <a-form-model-item ref="phoneNumber" label="Phone number" prop="phoneNumber">
+          <a-form-model-item ref="phoneNumber" label="Số điện thoại" prop="phoneNumber">
             <a-input
               v-model="form.phoneNumber"
               @blur="
@@ -43,14 +43,14 @@
           "
         />
       </a-form-model-item>
-      <a-form-model-item label="Message" prop="message">
+      <a-form-model-item label="Nội dung" prop="message">
         <a-input v-model="form.message" type="textarea" :auto-size="{minRows: 6, maxRows: 8 }" />
       </a-form-model-item>
     </div>
     <a-form-model-item>
       <div class="flex justify-center  my-5">
         <a-button class="bg-black h-11 px-8  text-white font-medium mt-4 hover:opacity-80" @click="onSubmit">
-          SUBMIT
+          Xác nhận
         </a-button>
       </div>
     </a-form-model-item>

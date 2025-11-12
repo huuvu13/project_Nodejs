@@ -13,7 +13,7 @@
           <h4 class="text-2xl text-black font-semibold pb-4">
             COLLECTION
           </h4>
-          <a class="cursor-pointer theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1" @click.prevent="searchSubject">SHOP NOW</a>
+          <a class="cursor-pointer theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1" @click.prevent="searchSubject">Mua ngay</a>
         </div>
       </div>
       <div class="relative overflow-hidden img-zoom-hover">
@@ -28,7 +28,7 @@
           <h4 class="text-2xl text-black font-semibold pb-4">
             COLLECTION
           </h4>
-          <a class="cursor-pointer theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1" @click.prevent="searchSubject">SHOP NOW</a>
+          <a class="cursor-pointer theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1" @click.prevent="searchSubject">Mua Ngay</a>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@
         <img src="@/static/hero/hero3.png" alt="hero photo">
         <div class="product_text_mid">
           <h4 class="color_one text-3xl  font-bold">
-            10% OFFER
+            Giảm 10%
           </h4>
           <h2 class="text text-2xl text-black font-semibold">
             NEW
@@ -45,7 +45,7 @@
           <h4 class="text-2xl text-black font-semibold pb-4">
             COLLECTION
           </h4>
-          <a href="/shop" class="theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1">SHOP NOW</a>
+          <a href="/shop" class="theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1">Mua Ngay</a>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@
           <h4 class="text-2xl text-orange font-semibold pb-4">
             ARRIVALS
           </h4>
-          <a class="cursor-pointer theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1" @click.prevent="searchSubject">SHOP NOW</a>
+          <a class="cursor-pointer theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1" @click.prevent="searchSubject">Mua Ngay</a>
         </div>
       </div>
       <div class="relative overflow-hidden img-zoom-hover">
@@ -71,7 +71,7 @@
           <h4 class="text-2xl text-orange font-semibold pb-4">
             COLLECTION
           </h4>
-          <a class="cursor-pointer theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1" @click.prevent="searchSubject">SHOP NOW</a>
+          <a class="cursor-pointer theme-btn-one bg-black text-white text-[1rem] btn_sm pt-1" @click.prevent="searchSubject">Mua ngay</a>
         </div>
       </div>
     </div>

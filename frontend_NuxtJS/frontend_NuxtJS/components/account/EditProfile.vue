@@ -9,7 +9,7 @@
       <div class="ml-4">
         <label for="inputfile" class="cursor-pointer text-black">
           <span class="font-semibold">
-            <i class="fa-regular fa-folder-open text-2xl" /> Upload Avatar
+            <i class="fa-regular fa-folder-open text-2xl" /> Tải ảnh lên
           </span>
           <input
             id="inputfile"
@@ -24,10 +24,10 @@
       </div>
       <div v-if="isUpLoadAvatar" class="flex space-x-4 ml-3">
         <button class="w-20 h-9 border border-solid border-[#e0e0e0] rounded-full hover:border-red" @click="upLoad">
-          Save
+          Lưu
         </button>
         <button class="w-20 h-9 border border-solid border-[#e0e0e0] rounded-full hover:border-black" @click="cancelUpLoad">
-          Cancel
+          Hủy
         </button>
       </div>
     </div>
@@ -50,15 +50,15 @@
     </div>
     <div v-if="!isChangePassword" class="flex">
       <button class="w-36 h-9 border border-solid border-[#e0e0e0] rounded-full hover:border-black font-medium" @click="changePassword">
-        Change Password
+        Đổi mật khẩu
       </button>
     </div>
     <div v-if="isChangePassword" class="flex justify-center space-x-4">
       <!-- <button class="w-28 h-9 border border-solid border-[#e0e0e0] rounded-full hover:border-red font-medium" @click="onSubmit">
-        Save
+        Lưu
       </button>
       <button class="w-28 h-9 border border-solid border-[#e0e0e0] rounded-full hover:border-black font-medium" @click="cancelPassword">
-        Cancel
+        Hủy
       </button> -->
     </div>
   </a-form-model>

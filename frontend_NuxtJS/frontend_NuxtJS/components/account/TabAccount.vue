@@ -5,21 +5,21 @@
       tab-position="left"
     >
       <a-tab-pane key="1">
-        <span slot="tab"><i class="fa-solid fa-user pr-2" />ACCOUNT DETAILS</span>
+        <span slot="tab"><i class="fa-solid fa-user pr-2" />CHI TIẾT TÀI KHOẢN</span>
         <Profile />
       </a-tab-pane>
       <a-tab-pane key="2">
-        <span slot="tab"><i class="fa-solid fa-chart-line pr-2" />STATISTICAL</span>
+        <span slot="tab"><i class="fa-solid fa-chart-line pr-2" />THỐNG KÊ</span>
 
         <div class="flex flex-col text-center">
           <UserChart />
           <p class="text-black font-medium text-lg mt-4">
-            Monthly spending statistics
+            Thống kê chi tiêu hàng tháng
           </p>
         </div>
       </a-tab-pane>
       <a-tab-pane key="3">
-        <span slot="tab"><i class="fa-solid fa-user-pen pr-2" />EDIT ACCOUNT</span>
+        <span slot="tab"><i class="fa-solid fa-user-pen pr-2" />SỬA THÔNG TIN</span>
 
         <EditProfile />
       </a-tab-pane>

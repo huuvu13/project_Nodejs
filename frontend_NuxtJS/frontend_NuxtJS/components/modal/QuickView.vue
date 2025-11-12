@@ -41,12 +41,12 @@
           <div class="flex justify-between">
             <a-input-number v-model="valueNumber" :min="1" :max="number > 0? number : 1" @change="onChange" />
             <button class="sm:py-[10px] sm:px-2 py-1 w-1/3 bg-black  hover:opacity-90 transition-all text-white font-semibold" @click="addToCart">
-              ADD TO CART
+              Thêm vào giỏ hàng
             </button>
           </div>
           <div>
             <h2 class="text-lg text-black font-semibold">
-              SHARE THIS PRODUCT
+              Chia sẻ sản phẩm
             </h2>
           </div>
           <div class="flex space-x-2">

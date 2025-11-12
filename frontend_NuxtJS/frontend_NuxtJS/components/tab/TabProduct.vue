@@ -2,7 +2,7 @@
   <div class="flex flex-col">
     <div class="mt-5 px-10 flex flex-col items-center justify-center">
       <h2 class="font-bold text-4xl mb-4">
-        HOT PRODUCT
+        SẢN PHẨM HOT
       </h2>
       <p class="font-medium">
         Mauris luctus nisi sapien tristique dignissim ornare
@@ -10,27 +10,27 @@
     </div>
     <div class="tab_product">
       <a-tabs default-active-key="1" @change="callback">
-        <a-tab-pane key="1" tab="NEW ARRIVAL" class="font-semibold">
+        <a-tab-pane key="1" tab="HÀNG MỚI VỀ" class="font-semibold">
           <ProductsList :products="newProducts" />
           <div class="flex justify-center items-center py-6">
             <h2 class="text-black lg:text-2xl cursor-pointer text-xl hover:text-orange transition-all" @click="searchSubject">
-              VIEW ALL PRODUCTS
+              XEM TẤT CẢ SẢN PHẨM
             </h2>
           </div>
         </a-tab-pane>
-        <a-tab-pane key="2" tab="BEST SELLER" class="font-semibold" force-render>
+        <a-tab-pane key="2" tab="BÁN NHIỀU NHẤT" class="font-semibold" force-render>
           <ProductsList :products="bestProducts" />
           <div class="flex justify-center items-center py-6">
             <h2 class="text-black lg:text-2xl cursor-pointer text-xl hover:text-orange transition-all" @click="searchSubject">
-              VIEW ALL PRODUCTS
+              XEM TẤT CẢ SẢN PHẨM
             </h2>
           </div>
         </a-tab-pane>
-        <a-tab-pane key="3" tab="ON SALE">
+        <a-tab-pane key="3" tab="ĐANG GIẢM GIÁ">
           <ProductsList :products="onSaleProducts" />
           <div class="flex justify-center items-center py-6">
             <h2 class="text-black lg:text-2xl cursor-pointer text-xl hover:text-orange transition-all" @click="searchSubject">
-              VIEW ALL PRODUCTS
+              XEM TẤT CẢ SẢN PHẨM
             </h2>
           </div>
         </a-tab-pane>

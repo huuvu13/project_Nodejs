@@ -3,13 +3,13 @@
     <header class="banner_single mb-10">
       <div class="flex justify-center absolute items-center w-full flex-col">
         <h2 class="text-white text-3xl font-semibold">
-          About Us
+          Về chúng tôi
         </h2>
         <span class="text-orange text-lg">
           <nuxt-link tag="span" class="text-white text-lg cursor-pointer" to="/">
-            Home
+            Trang chủ
           </nuxt-link>
-          / About
+          / Về chúng tôi
         </span>
       </div>
     </header>
@@ -19,19 +19,16 @@
       </div>
       <div class="space-y-2">
         <h2 class="text-3xl text-black font-medium">
-          ABOUT OUR ANDSHOP STORE
+          ANDSHOP STORE
         </h2>
         <p class="text-2xl text-black font-normal">
-          We believe that every project existing in digital world is a result of an idea and every idea has a cause.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa.
         </p>
         <p class="text-lg  font-normal">
-          For this reason, our each design serves an idea. Our strength in design is reflected by our name, our care for details. Our specialist won't be afraid to go extra miles just to approach near perfection.
-          We don't require everything to be perfect, but we need them to be perfectly cared for.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <p class="text-lg  font-normal">
-          That's a reason why we are willing to give contributions at best.
-          Not a single detail is missed out under Billey's professional eyes. The amount of dedication and effort equals to the level of passion and determination. Get better, together as one. Proin eget tortor risus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur arcu erat, accumsan id imperdiet et,
-          porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
         </p>
       </div>
     </div>
@@ -47,11 +44,11 @@
       </div>
       <div class="flex mt-5 justify-center mx-auto sm:space-x-8  space-x-4">
         <div class="w-36 flex justify-end">
-          <img src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.6435-9/52591436_720237038377890_7401268411050754048_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=QIeqF_zGBz4AX90yvQR&_nc_ht=scontent.fhan2-1.fna&oh=00_AfBCkIvM3eMBJXR0-_mt91k2OIW-nfa1-Ghmkv04QYnLvg&oe=63860FED" alt="photo">
+          <img src="htts://scontent.fhan2-1.fna.fbcdn.net/v/t1.6435-9/52591436_720237038377890_7401268411050754048_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=QIeqF_zGBz4AX90yvQR&_nc_ht=scontent.fhan2-1.fna&oh=00_AfBCkIvM3eMBJXR0-_mt91k2OIW-nfa1-Ghmkv04QYnLvg&oe=63860FED" alt="photo">
         </div>
         <div class="flex flex-col space-y-2">
           <p class="text-2xl text-black font-medium">
-            Đồng Văn Dương
+            Admin
           </p>
           <p class="text-lg">
             Be the first to establish a company

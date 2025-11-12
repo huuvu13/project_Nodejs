@@ -7,7 +7,7 @@
         </h2>
         <span class="text-orange text-lg">
           <nuxt-link tag="span" class="text-white text-lg cursor-pointer" to="/">
-            Home
+            Trang chủ
           </nuxt-link>
           / Shop
         </span>
@@ -16,21 +16,21 @@
     <div class="flex flex-col  my-10">
       <div class="grid sm:grid-cols-2 space-y-1 lg:px-12 px-4">
         <div class="text-[1rem]">
-          <p>There are {{ listProduct.total ? listProduct.total : 0 }} products related to <span class="text-black font-medium"> #{{ querySearch }}</span> </p>
+          <p>Tổng cộng có {{ listProduct.total ? listProduct.total : 0 }} sản phẩm<span class="text-black font-medium"> #{{ querySearch }}</span> </p>
         </div>
         <div class=" grid">
           <div class="col-span-3 flex sm:justify-end sm:space-x-5 space-x-1">
             <button class="sm:px-5 py-2  btn_sort px-2" @click="sortNew">
-              News
+              Mới nhất
             </button>
             <button class="sm:px-5 py-2  btn_sort px-2" @click="sortPrice">
-              Price
+              Giá
             </button>
             <button class="sm:px-5 py-2  btn_sort px-2 " @click="sortView">
-              Views
+              Lượt xem
             </button>
             <button class="sm:px-5 py-2  btn_sort px-2" @click="sortSold">
-              Sold
+              Đã bán
             </button>
             <button class="icon-grid_search" :class="!isGrid ? 'icon-grid_click':''" @click="changeGrid(false)">
               <i class="fa-solid fa-list  text-black text-lg" />

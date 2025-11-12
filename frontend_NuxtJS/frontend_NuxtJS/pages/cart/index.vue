@@ -7,16 +7,16 @@
         </h2>
         <span class="text-orange text-lg">
           <nuxt-link tag="span" class="text-white text-lg cursor-pointer" to="/">
-            Home
+            Trang chủ
           </nuxt-link>
-          / Cart
+          / Giỏ hàng
         </span>
       </div>
     </header>
     <div>
       <div v-if="carts.length<1" class="text-black font-medium text-2xl px-14 h-[50vh]">
         <p>
-          You have no products in your shopping cart
+          Bạn chưa có sản phẩm nào trong giỏ hàng
         </p>
         <hr class="bg-[#cdcdcd] text-[#cdcdcd] h-[1.5px] mt-10 mb-20">
       </div>

@@ -7,9 +7,9 @@
         </h2>
         <span class="text-orange text-lg">
           <nuxt-link tag="span" class="text-white text-lg cursor-pointer" to="/">
-            Home
+            Trang chủ
           </nuxt-link>
-          / Product Single
+          / Thông tin sản phẩm
         </span>
       </div>
     </header>
@@ -184,7 +184,7 @@ export default {
             productId: id
           }
           await this.$api.wishlist.addWishList(wishlist)
-          this.$toast.success('Add wishlist successfully', { timeout: 1500 })
+          this.$toast.success('Thêm vào danh sách yêu thích thành công', { timeout: 1500 })
           this.$store.dispatch('dataWishlist')
         } catch (error) {
           console.log(error)

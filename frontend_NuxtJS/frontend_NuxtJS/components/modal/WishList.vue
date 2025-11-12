@@ -36,7 +36,7 @@
         </section>
         <div class="m-4">
           <button v-show="wishList.length > 0" class="rounded-xl p-3 bg-black hover:opacity-80 text-white w-full" @click="onNextBtn">
-            VIEW WISHLIST
+            Xem danh sách yêu thích
           </button>
         </div>
       </div>
@@ -50,8 +50,8 @@ export default {
 
   data () {
     return {
-      modalTitle: 'Wishlist',
-      wishEmptyLabel: 'Your wish list is empty'
+      modalTitle: 'Danh sách yêu thích',
+      wishEmptyLabel: 'Danh sách của bạn trống'
     }
   },
 
@@ -85,7 +85,7 @@ export default {
       try {
         await this.$api.wishlist.deleteWishlist({ wishlistId })
         this.$store.dispatch('dataWishlist')
-        this.$toast.success('Product removed from wishlist successfully', { timeout: 1500 })
+        this.$toast.success('Xóa thành công', { timeout: 1500 })
       } catch (error) {
         console.log(error)
       }

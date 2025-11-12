@@ -26,7 +26,7 @@
             </svg>
           </span>
           <p class="text-md text-black dark:text-white ml-2">
-            {{ title || 'Total Gains' }}
+            {{ title || 'Tổng lợi nhuận' }}
           </p>
         </div>
         <div class="flex flex-col justify-start">
@@ -55,7 +55,7 @@
               />
             </svg>
             <span>{{ totalStatis.gains.growthGain }}%</span>
-            <span class="text-gray-400">vs last Year</span>
+            <span class="text-gray-400"> so với năm trước</span>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@
             </svg>
           </span>
           <p class="text-md text-black dark:text-white ml-2">
-            Year revenue
+            Doanh thu năm
           </p>
         </div>
         <div class="flex flex-col justify-start">
@@ -115,7 +115,7 @@
               />
             </svg>
             <span>{{ totalStatis.totalYear.growthYear }}%</span>
-            <span class="text-gray-400">vs last year</span>
+            <span class="text-gray-400"> so với năm trước</span>
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@
             </svg>
           </span>
           <p class="text-md text-black dark:text-white md:ml-4">
-            Month revenue
+            Doanh thu tháng
           </p>
         </div>
         <div class="flex flex-col justify-start">
@@ -175,7 +175,7 @@
               />
             </svg>
             <span>{{ totalStatis.totalMonth.growth }}%</span>
-            <span class="text-gray-400">vs last month</span>
+            <span class="text-gray-400"> so với tháng trước</span>
           </div>
         </div>
       </div>
@@ -280,7 +280,7 @@
         <a href="#" class="w-full h-full block">
           <div class="w-full">
             <p class="text-gray-700 dark:text-white text-2xl  mb-4">
-              Top Rating
+              Top Đánh giá
             </p>
             <div v-for="item in listProductRating" :key="item._id">
 
@@ -321,7 +321,7 @@
       >
         <div class="w-full flex items-center justify-between mb-8">
           <p class="text-gray-800 dark:text-white text-xl">
-            Rank Account
+            Rank Tài khoản
           </p>
           <a
             href="/admin/users"
@@ -359,7 +359,7 @@
                 {{ item.username }}
               </p>
               <p class="text-gray-300">
-                Total purchase amount
+                Số tiền mua hàng
               </p>
             </div>
             <span class="text-green-400">+${{ item.sum }}</span>

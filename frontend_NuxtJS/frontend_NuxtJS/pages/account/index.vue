@@ -7,9 +7,9 @@
         </h2>
         <span class="text-orange text-lg">
           <nuxt-link tag="span" class="text-white text-lg cursor-pointer" to="/">
-            Home
+            Trang chủ
           </nuxt-link>
-          / Account
+          / Tài khoản
         </span>
       </div>
     </header>

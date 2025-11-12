@@ -2,7 +2,7 @@
   <div class="flex flex-col bg-[#f6f6f6]">
     <div class="mt-6 px-10 flex flex-col items-center justify-center">
       <h2 class="font-bold lg:text-4xl text-lg mb-5">
-        FOLLOW US INSTAGRAM
+        THEO DÕI INSTAGRAM
       </h2>
       <p class="font-medium mb-6">
         Mauris luctus nisi sapien tristique dignissim ornare
@@ -22,7 +22,7 @@
           <div>
             <img src="@/static/logo/logoAndShop.png" class="mr-5 h-10 sm:h-[70px]" alt="logo">
             <p class="max-w-xs mt-3 text-[1rem] text-black">
-              And Shop has been launched in Vietnam with the orientation of an e-commerce website.
+              And Shop được phát triển ở Việt Nam với mục đích là một website bán hàng.
             </p>
             <div class="flex mt-8 space-x-6 text-black">
               <a class="hover:text-[#f79837]" href target="_blank" rel="noreferrer">
@@ -93,7 +93,7 @@
           </div>
         </div>
         <p class="mt-8 text-[1rem] text-black font-semibold">
-          © 2022 AndShop
+          © 2025 AndShop
         </p>
       </div>
     </footer>

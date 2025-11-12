@@ -1,23 +1,23 @@
 <template>
   <a-form-model ref="ruleForm" :model="ruleForm" :rules="rules" :colon="false">
     <div class=" grid grid-cols-3 gap-6 form-password">
-      <a-form-model-item has-feedback label="Current password" prop="currentPass">
+      <a-form-model-item has-feedback label="Mật khẩu hiện tại" prop="currentPass">
         <a-input v-model.number="ruleForm.currentPass" type="password" />
       </a-form-model-item>
-      <a-form-model-item has-feedback label="New password" prop="pass">
+      <a-form-model-item has-feedback label="Mật khẩu mới" prop="pass">
         <a-input v-model="ruleForm.pass" type="password" autocomplete="off" />
       </a-form-model-item>
-      <a-form-model-item has-feedback label="Re-password" prop="checkPass">
+      <a-form-model-item has-feedback label="Nhập lại mật khẩu" prop="checkPass">
         <a-input v-model="ruleForm.checkPass" type="password" autocomplete="off" />
       </a-form-model-item>
     </div>
 
     <div class="flex justify-center space-x-4">
       <button class="w-28 h-9 border border-solid border-[#e0e0e0] rounded-full hover:border-red font-medium" @click="submitForm('ruleForm')">
-        Save
+        Lưu
       </button>
       <button class="w-28 h-9 border border-solid border-[#e0e0e0] rounded-full hover:border-black font-medium" @click="cancel(false)">
-        Cancel
+        Hủy
       </button>
     </div>
   </a-form-model>

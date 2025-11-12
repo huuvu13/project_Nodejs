@@ -15,23 +15,23 @@
       <a-menu-item key="1">
         <a href="/order" class=" font-medium pr-1">
           <i class="cursor-pointer fa-solid fa-cart-shopping text-[1rem] text-black mx-1" />
-          View order </a>
+          Xem giỏ hàng </a>
       </a-menu-item>
       <a-menu-item v-if="isAdmin" key="2">
         <a href="/admin" class=" font-medium pr-1">
           <i class="fas fa-cog text-[1rem] text-black mx-1 cursor-pointer" />
-          System </a>
+          Hệ thống </a>
       </a-menu-item>
       <a-menu-item key="3">
         <a href="#" class=" font-medium pr-1">
           <i class="cursor-pointer fa-solid fa-chart-line text-[1rem] text-black mx-1" />
-          See details </a>
+          Xem chi tiết </a>
       </a-menu-item>
       <a-menu-item key="4">
         <a href="" class=" font-medium pr-1" @click="logout">
           <!-- <i class="fa-solid fa-right-from-bracket"></i> -->
           <i class="cursor-pointer fa-solid fa-right-from-bracket text-[1rem] text-black mx-1" />
-          Log out </a>
+          Đăng xuất </a>
       </a-menu-item>
     </a-menu>
   </a-dropdown>

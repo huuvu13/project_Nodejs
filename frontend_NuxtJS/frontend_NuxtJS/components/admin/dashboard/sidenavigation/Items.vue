@@ -1,21 +1,21 @@
 <template>
   <ul class="md:pl-6">
-    <sidenav-item title="Statistical" to="/admin">
+    <sidenav-item title="Thống kê" to="/admin">
       <documentation-icon />
     </sidenav-item>
-    <sidenav-item title="Users" to="/admin/users">
+    <sidenav-item title="Người dùng" to="/admin/users">
       <users-icon />
     </sidenav-item>
 
-    <sidenav-item title="Products" to="/admin/products">
+    <sidenav-item title="Sản phẩm" to="/admin/products">
       <medias-icon />
     </sidenav-item>
 
-    <sidenav-item title="Orders" to="/admin/orders">
+    <sidenav-item title="Đơn hàng" to="/admin/orders">
       <servers-icon />
     </sidenav-item>
 
-    <sidenav-item title="Contacts" to="/admin/contact">
+    <sidenav-item title="Liên hệ" to="/admin/contact">
       <contact-icon />
     </sidenav-item>
 
@@ -27,7 +27,7 @@
       <terminal-icon />
     </sidenav-item> -->
 
-    <sidenav-item title="Recycle Bin" to="/admin/recyclebin">
+    <sidenav-item title="Thùng Rác" to="/admin/recyclebin">
       <recycle-bin-icon />
     </sidenav-item>
   </ul>

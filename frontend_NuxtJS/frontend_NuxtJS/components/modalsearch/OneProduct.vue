@@ -45,17 +45,17 @@
         <div class="flex cursor-pointer" @click="saveToFavorite(product._id)">
           <i class="fa-regular hover_item fa-heart lg:text-xl text-lg text-black transition-all hover:text-orange" />
           <p class="text-black font-medium text-[1rem] ml-2">
-            Add To Wishlist
+            Thêm vào danh sách yêu thích
           </p>
         </div>
         <div class="flex cursor-pointer" @click="showQuickView">
           <i class="fa-solid fa-expand hover_item lg:text-xl text-lg text-black transition-all hover:text-orange" />
           <p class="text-black font-medium text-[1rem] ml-2">
-            Quick views
+            Xem trước
           </p>
         </div>
         <button class="bg-black text-white font-medium w-36 py-[10px] px-2 transition-all hover:opacity-80" @click="addToCart(product._id)">
-          ADD TO CART
+          Thêm vào giỏ hàng
         </button>
       </div>
     </div>

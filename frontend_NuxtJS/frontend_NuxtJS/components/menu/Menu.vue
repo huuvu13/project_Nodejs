@@ -7,39 +7,39 @@
   >
     <a-menu-item key="1">
       <nuxt-link to="/" tag="li">
-        HOME
+        TRANG CHỦ
       </nuxt-link>
     </a-menu-item>
     <a-menu-item key="2" class="relative sub_shop">
       SHOP<a-icon type="down" class="absolute leading-[78px] font-medium pl-[1px]" />
       <ul class="hidden absolute bg-[#fef5ef] item-menu_shop">
         <li @click="searchSubject(1)">
-          Men
+          ĐỒ NAM
         </li>
         <li @click="searchSubject(0)">
-          Woman
+          ĐỒ NỮ
         </li>
       </ul>
     </a-menu-item>
     <a-menu-item key="3" class="relative sub_shop">
-      PAGES<a-icon type="down" class="absolute leading-[78px] font-medium pl-[1px]" />
+      TRANG<a-icon type="down" class="absolute leading-[78px] font-medium pl-[1px]" />
       <ul class="hidden absolute bg-[#fef5ef] item-menu_shop">
         <nuxt-link to="/cart" tag="li">
-          View Cart
+          GIỎ HÀNG
         </nuxt-link>
         <nuxt-link to="/wishlist" tag="li">
-          View WishList
+          YÊU THÍCH
         </nuxt-link>
       </ul>
     </a-menu-item>
     <a-menu-item key="4">
       <nuxt-link to="/contact" tag="li">
-        CONTACT
+        LIÊN HỆ
       </nuxt-link>
     </a-menu-item>
     <a-menu-item key="5">
       <nuxt-link to="/about" tag="li">
-        ABOUT US
+        VỀ CHÚNG TÔI
       </nuxt-link>
     </a-menu-item>
   </a-menu>

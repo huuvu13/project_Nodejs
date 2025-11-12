@@ -7,16 +7,16 @@
         </h2>
         <span class="text-orange text-lg">
           <nuxt-link tag="span" class="text-white text-lg cursor-pointer" to="/">
-            Home
+            Trang chủ
           </nuxt-link>
-          / Wishlist
+          / Danh sách yêu thích
         </span>
       </div>
     </header>
     <div>
       <div v-if="wishlists.length<1" class="text-black font-medium text-2xl px-14 h-[50vh]">
         <p>
-          You have no products in your Wishlish
+          Bạn chưa có sản phẩm nào trong danh sách yêu thích
         </p>
         <hr class="bg-[#cdcdcd] text-[#cdcdcd] h-[1.5px] mt-10 mb-20">
       </div>

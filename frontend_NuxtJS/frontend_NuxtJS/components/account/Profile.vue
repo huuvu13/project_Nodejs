@@ -13,7 +13,7 @@
     <div class="right">
       <div class="info">
         <h3 class="font-medium text-lg">
-          Information
+          Thông tin
         </h3>
         <div class="info_data">
           <div class="data">
@@ -26,7 +26,7 @@
           </div>
           <div class="data">
             <h4 class="font-medium text-lg">
-              Phone
+              Số điện thoại
             </h4>
             <p>0001-213-998761</p>
           </div>
@@ -35,18 +35,18 @@
 
       <div class="projects">
         <h3 class="text-lg font-medium">
-          Dependence
+          Trạng thái xác minh
         </h3>
         <div class="projects_data">
           <div class="data">
             <h4 class="font-medium text-lg">
-              Status
+              Trạng thái
             </h4>
             <p>Real account confirmed.</p>
           </div>
           <div class="data">
             <h4 class="font-medium text-lg">
-              Join Date
+              Ngày tham gia
             </h4>
             <p>{{ forMatDate(userInfo.createdAt) }}</p>
           </div>

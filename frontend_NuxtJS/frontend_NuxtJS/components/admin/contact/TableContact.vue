@@ -11,22 +11,22 @@
     >
       <thead slot="head" class="bg-white">
         <v-th :custom-sort="nameSort">
-          FullName
+          Họ Tên
         </v-th>
         <v-th :custom-sort="emailSort">
           Email
         </v-th>
         <v-th :custom-sort="phoneLength">
-          phoneNumber
+          Số điện thoại
         </v-th>
         <v-th :custom-sort="messSort">
-          Message
+          Nội dung liên hệ
         </v-th>
         <v-th :custom-sort="dateSort">
-          Date created
+          Ngày tạo
         </v-th>
         <v-th :custom-sort="btn">
-          Action
+          Hoạt động
         </v-th>
       </thead>
       <tbody slot="body" slot-scope="{displayData}">
@@ -56,7 +56,7 @@
           <td>{{ formatDate(row.createdAt) }}</td>
           <td>
             <button class="bg-red rounded-md px-3 py-1 text-white hover:opacity-90 " @click="showDeleteConfirm(row._id,row.fullName)">
-              Delete
+              Xóa
             </button>
           </td>
         </tr>
@@ -97,13 +97,13 @@ export default {
   methods: {
     showDeleteConfirm (id, fullName) {
       this.$confirm({
-        title: `Are you sure delete this contact ${fullName} ?`,
+        title: `Bạn chắc chắn muốn xóa ID liên hệ ${fullName} ?`,
         // content: 'Some descriptions',
         okText: 'Yes',
         okType: 'danger',
         cancelText: 'No',
         onOk: () => {
-        //   console.log('OK delete ID', id)
+        //   console.log('Đã xóa ID', id)
           this.selectedRows = []
           // this.$refs[`tr${id}`][0].classList.remove('table-info')
           this.deleteContact(id)

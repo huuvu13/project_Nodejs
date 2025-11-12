@@ -2,7 +2,7 @@
   <div>
     <a-modal
       v-model="visible"
-      title="Billing Information"
+      title="Thông tin thanh toán"
       :footer="null"
       class="modal_order"
       width="{1000}"
@@ -16,7 +16,7 @@
       >
         <div class="grid sm:grid-cols-2 gap-6 grid-cols-1 max-h-[70vh] overflow-y-auto">
           <div>
-            <a-form-model-item ref="fullName" label="Full name" prop="fullName">
+            <a-form-model-item ref="fullName" label="Họ Tên" prop="fullName">
               <a-input
                 v-model="form.fullName"
                 @blur="
@@ -26,7 +26,7 @@
                 "
               />
             </a-form-model-item>
-            <a-form-model-item ref="phoneNumber" label="Phone number" prop="phoneNumber">
+            <a-form-model-item ref="phoneNumber" label="Số điện thoại" prop="phoneNumber">
               <a-input
                 v-model="form.phoneNumber"
                 @blur="
@@ -36,25 +36,25 @@
                 "
               />
             </a-form-model-item>
-            <a-form-model-item label="Delivery address" prop="deliveryAddress">
+            <a-form-model-item label="Địa chỉ giao hàng" prop="deliveryAddress">
               <a-input v-model="form.deliveryAddress" type="textarea" />
             </a-form-model-item>
           </div>
           <div class="flex justify-between mt-4">
             <div class="text-[1rem] font-medium text-black space-y-7">
               <p>
-                Amount:
+                Số lượng:
               </p>
               <p>
-                Total money:
+                Tổng tiền:
               </p>
               <p>
-                Transport fee:
+                Phí vận chuyển:
               </p>
               <p>
-                Discount:
+                Giảm giá:
               </p>
-              <p>Into money: </p>
+              <p>Số tiền phải trả: </p>
             </div>
             <div class="text-black font-medium flex flex-col items-end space-y-7 pr-4 text-[1rem]">
               <p> {{ totalCart.item }} Item  / {{ totalCart.numberProduct }} Product</p>
@@ -76,7 +76,7 @@
         <a-form-model-item>
           <div class="flex justify-center btn_order my-5">
             <a-button class="bg-green h-10 px-7 hover:opacity-90 text-black font-medium mt-4" @click="onSubmit">
-              PLACE ORDER
+              Đặt hàng
             </a-button>
           </div>
         </a-form-model-item>
@@ -104,11 +104,11 @@ export default {
             if (isValidUserName(value)) {
               callback()
             } else {
-              callback(new Error('Invalid name'))
+              callback(new Error('Tên không hợp lệ'))
             }
           }
         }],
-        deliveryAddress: [{ required: true, message: 'Please input activity form', trigger: 'blur' }],
+        deliveryAddress: [{ required: true, message: 'Mời nhập thông tin', trigger: 'blur' }],
         phoneNumber: [{
           required: true,
           trigger: 'blur',
@@ -117,7 +117,7 @@ export default {
             if (isValidPhone(value)) {
               callback()
             } else {
-              callback(new Error('Invalid phone number'))
+              callback(new Error('Số điện thoại không hợp lệ'))
             }
           }
         }]
